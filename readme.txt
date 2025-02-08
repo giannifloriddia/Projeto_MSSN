@@ -1,4 +1,4 @@
-O caminho das imagens deve estar errado, porfavor trocar os caminhos:
+O caminho das imagens necessita ser trocado para um correto funcionamento, por favor trocar os caminhos:
  - na classe Papers - trocar o caminho pelo da imagem papel;
  - na classe Rocks - trocar o caminho pelo da imagem pedra;
  - na classe Scissors - trocar o caminho pelo da imagem tesoura;
