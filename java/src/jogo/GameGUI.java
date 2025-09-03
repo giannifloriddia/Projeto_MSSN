@@ -41,7 +41,7 @@ public class GameGUI extends JPanel{
 
 
     public void setUpGui() {
-        icon = new ImageIcon(("E:\\UNIVERSIDADE\\2º ANO\\1º Semestre\\MSSN\\PRJ_ 51945_51959\\PRJ_ 51945_51959\\java\\imagens\\icon.png"));
+        icon = new ImageIcon("java/imagens/icon.png");
         // Definir a imagem como ícone da janela
         frame.setIconImage(icon.getImage());
 
@@ -60,7 +60,7 @@ public class GameGUI extends JPanel{
         // Adicionar imagem ao lado direito do Player 1
         gbc.gridx = 2; // Posicionar no próximo espaço após Player 1
         gbc.gridy = 0;
-        ImageIcon player1Image = new ImageIcon("E:\\UNIVERSIDADE\\2º ANO\\1º Semestre\\MSSN\\PRJ_ 51945_51959\\PRJ_ 51945_51959\\java\\imagens\\ImageIcon.png");
+        ImageIcon player1Image = new ImageIcon("java/imagens/ImageIcon.png");
         JLabel player1ImageLabel = new JLabel(player1Image);
         frame.add(player1ImageLabel, gbc);
 

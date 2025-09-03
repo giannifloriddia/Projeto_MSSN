@@ -9,7 +9,7 @@ public class Papers extends GameObject {
 
     private PApplet parent;
     private SubPlot plt;
-    private String path = "E:\\UNIVERSIDADE\\2º ANO\\1º Semestre\\MSSN\\PRJ_ 51945_51959\\PRJ_ 51945_51959\\java\\imagens\\papel.png";
+    private String path = "\\java\\imagens\\papel.png";
 
     protected Papers(GameObject o, boolean mutate, PApplet parent, SubPlot plt) {
         super(o, mutate, parent, plt);
